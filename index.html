@@ -3,9 +3,9 @@
 <head>
     <title>MacOS Sierra - Desktop Website</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" type="text/css" href="dock.css">
-    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link href="css/dock.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
 </head>
 <body>
     <div id="super-container">
@@ -21,20 +21,51 @@
             </div>
         </div>
         <div class="desktop-space"></div>
-        <div class="dock">
-            <div class="dock-icon"></div>
-            <div class="dock-icon"></div>
-            <div class="dock-icon"></div>
-            <div class="dock-icon"></div>
-            <div class="dock-icon"></div>
-            <div class="dock-icon"></div>
-            <div class="dock-icon"></div>
-
-
-
-      
-      
-        </div>
     </div>
+<div class="dock" id="dock2">
+                <div class="dock-container2">
+                    <a class="dock-item2" href="#"><span></span><img src="img/home.png" alt="home"></a> 
+                    <a class="dock-item2" href="#"><span></span><img src="img/email.png" alt="contact"></a> 
+                    <a class="dock-item2" href="#"><span></span><img src="img/portfolio.png" alt="portfolio"></a> 
+                    <a class="dock-item2" href="#"><span></span><img src="img/music.png" alt="music"></a> 
+                    <a class="dock-item2" href="#"><span></span><img src="img/video.png" alt="video"></a> 
+                    <a class="dock-item2" href="#"><span></span><img src="img/history.png" alt="history"></a> 
+                    <a class="dock-item2" href="#"><span></span><img src="img/calendar.png" alt="calendar"></a> 
+                    <a class="dock-item2" href="#"><span></span><img src="img/link.png" alt="links"></a> 
+                    <a class="dock-item2" href="#"><span></span><img src="img/rss.png" alt="rss"></a> 
+                    <a class="dock-item2" href="#"><span></span><img src="img/rss2.png" alt="rss"></a> 
+                </div>
+            </div>
+    
+            <!--dock menu JS options -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+            <script type="text/javascript" src="js/iutil.js"></script>
+            <script type="text/javascript" src="js/fisheye.js"></script>
+            <script type="text/javascript">
+                $(document).ready(
+                function()
+                {
+                    $('#dock2').Fisheye(
+                    {
+                        maxWidth: 60,
+                        items: 'a',
+                        itemsText: 'span',
+                        container: '.dock-container2',
+                        itemWidth: 40,
+                        proximity: 80,
+                        alignment : 'left',
+                        valign: 'bottom',
+                        halign : 'center'
+                    }
+                )
+                }
+            );
+            </script>
+
+
+
+
+
+
 </body>
 </html>
