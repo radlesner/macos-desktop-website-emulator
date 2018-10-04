@@ -38,14 +38,13 @@ a.dock-item {
 /* dock2 - bottom */
 #dock2 {
 	width: 100%;
-	bottom: 0%;
+	bottom: 0px;
 	position: absolute;
 	left: 0px;
 }
 .dock-container2 {
 	position: absolute;
-	height: 7vh;
-	/*height: 50px;*/
+	height: 50px;
 	background: rgba(255, 206, 100, 0.3);
 	border-top-left-radius: 6px;
     border-top-right-radius: 6px;
