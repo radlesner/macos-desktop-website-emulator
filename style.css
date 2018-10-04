@@ -1,0 +1,19 @@
+*{box-sizing: border-box;}
+
+body{
+    background-image: url(backgrounds/background.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;    
+}
+
+#super-container{
+    width: 100%;
+    height: 100%;
+}
+.dock{
+    background: #033030;
+    width: 50%;
+    height: 70px;
+    top: 100px;
+    left: 100px
+}
