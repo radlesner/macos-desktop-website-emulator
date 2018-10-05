@@ -20,64 +20,129 @@ body{
     height: 3.5vh;
     background: hsl(0, 0%, 100%, 0.5);
 }
-#topbar-logo{
-    width: 2vw;
+.topbar-logo{
+    width: auto;
     height: 3.5vh;
     float: left;
+    font-size: 3vh;
+    text-align: center;
+    border-bottom-right-radius: 10%;
+
 }
-.apple-logo-topbar{
-    width: 100%;
-    height:100%;
-    float: left;
+.topbar-logo:hover{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
 }
 .topbar-button-finder{
     float: left;
     font-size: 2vh;
     font-family: 'Work Sans', sans-serif;
-    margin-left: 2vw;
-    margin-top: 0.5vh;
+    margin-left: 1.5vh;
+    margin-top: 0;
+    padding: 0.5vh;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.topbar-button-finder:hover{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
 }
 .topbar-button-file{
     float: left;
     font-size: 2vh;
     font-family: 'Work Sans', sans-serif;
-    margin-left: 2vw;
-    margin-top: 0.5vh;
+    margin-left: 1.5vh;
+    margin-top: 0;
+    padding: 0.5vh;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.topbar-button-file:hover{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
 }
 .topbar-button-edit{
     float: left;
     font-size: 2vh;
     font-family: 'Work Sans', sans-serif;
-    margin-left: 2vw;
+    margin-left: 1.5vh;
     margin-top: 0.5vh;
+    margin-top: 0;
+    padding: 0.5vh;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.topbar-button-edit:hover{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
 }
 .topbar-button-view{
     float: left;
     font-size: 2vh;
     font-family: 'Work Sans', sans-serif;
-    margin-left: 2vw;
+    margin-left: 1.5vh;
     margin-top: 0.5vh;
+    margin-top: 0;
+    padding: 0.5vh;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.topbar-button-view:hover{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
 }
 .topbar-button-go{
     float: left;
     font-size: 2vh;
     font-family: 'Work Sans', sans-serif;
-    margin-left: 2vw;
+    margin-left: 1.5vh;
     margin-top: 0.5vh;
+    margin-top: 0;
+    padding: 0.5vh;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.topbar-button-go:hover{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
 }
 .topbar-button-window{
     float: left;
     font-size: 2vh;
     font-family: 'Work Sans', sans-serif;
-    margin-left: 2vw;
+    margin-left: 1.5vh;
     margin-top: 0.5vh;
+    margin-top: 0;
+    padding: 0.5vh;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.topbar-button-window:hover{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
 }
 .topbar-button-help{
     float: left;
     font-size: 2vh;
     font-family: 'Work Sans', sans-serif;
-    margin-left: 2vw;
+    margin-left: 1.5vh;
     margin-top: 0.5vh;
+    margin-top: 0;
+    padding: 0.5vh;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.topbar-button-help:hover{
+    display: block;
+    background: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
 }
 .desktop-space{
     width: 100%;
