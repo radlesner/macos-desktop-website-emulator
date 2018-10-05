@@ -31,7 +31,7 @@ body{
 }
 .topbar-logo:hover{
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0);
     color: #ffffff;
 }
 .topbar-button-finder{
@@ -46,7 +46,7 @@ body{
 }
 .topbar-button-finder:hover{
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0);
     color: #ffffff;
 }
 .topbar-button-file{
@@ -61,7 +61,7 @@ body{
 }
 .topbar-button-file:hover{
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0);
     color: #ffffff;
 }
 .topbar-button-edit{
@@ -77,7 +77,7 @@ body{
 }
 .topbar-button-edit:hover{
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0);
     color: #ffffff;
 }
 .topbar-button-view{
@@ -93,7 +93,7 @@ body{
 }
 .topbar-button-view:hover{
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0);
     color: #ffffff;
 }
 .topbar-button-go{
@@ -109,7 +109,7 @@ body{
 }
 .topbar-button-go:hover{
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0);
     color: #ffffff;
 }
 .topbar-button-window{
@@ -125,7 +125,7 @@ body{
 }
 .topbar-button-window:hover{
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0);
     color: #ffffff;
 }
 .topbar-button-help{
@@ -141,7 +141,7 @@ body{
 }
 .topbar-button-help:hover{
     display: block;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0);
     color: #ffffff;
 }
 .desktop-space{
