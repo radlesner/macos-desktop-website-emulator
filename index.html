@@ -1,69 +1,82 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-    <title>MacOS Sierra - Desktop Website</title>
+    <title>MacOS - Desktop Website</title>
     <meta charset="utf-8">
+
+    <meta name="description" content="MacOS desktop in Website" />	
+	<meta name="keywords=" content="macos desktop website, mac desktop website, macos website, website mac desktop, website macos desktop" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1" />
+	<meta name="author" content="Lesner Radosław" />
+	<meta name="viewport" content="width=device-width, intial-scale=1.0">
+
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="css/dock.css" rel="stylesheet" type="text/css">
+    <link href="css/topbar.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="fontello/css/fontello.css" type="text/css" />
     <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <script src="js/timer.js"></script>
 </head>
-<body>
+<body onload="odliczanie();">
     <div id="super-container">
         <div class="topbar">
-            <div class="topbar-logo">
-                <i class="icon-apple"></i>
-            </div>
-            <div class="topbar-button-finder"><b>Finder</b></div>
-            <div class="topbar-button-file">File</div>
-            <div class="topbar-button-edit">Edit</div>
-            <div class="topbar-button-view">View</div>
-            <div class="topbar-button-go">Go</div>
-            <div class="topbar-button-window">Window</div>
-            <div class="topbar-button-help">Help</div>
-            </div>
+            <div class="topbar-left-logo"><i class="icon-apple"></i></div>
+            <div class="topbar-left-button-finder"><b>Finder</b></div>
+            <div class="topbar-left-button-file">File</div>
+            <div class="topbar-left-button-edit">Edit</div>
+            <div class="topbar-left-button-view">View</div>
+            <div class="topbar-left-button-go">Go</div>
+            <div class="topbar-left-button-window">Window</div>
+            <div class="topbar-left-button-help">Help</div>
+            <div class="topbar-right-button-wifi"><i class="icon-wifi"></i></div>
+            <div class="topbar-right-button-battery"><i class="icon-battery-4"></i></div>
+            <div id="topbar-right-button-date"></div>
         </div>
-        <div class="desktop-space"></div>
+    </div>
+    <div class="desktop-space">
+        <div class="statement">
+            <br><br><br>Website under construction, you still have to wait for the final effect.
+        </div>
     </div>
 
     <div class="dock" id="dock2">
-                <div class="dock-container2">
-                    <a class="dock-item2" href="#"><span></span><img src="img/home.png" alt="home"></a> 
-                    <a class="dock-item2" href="#"><span></span><img src="img/email.png" alt="contact"></a> 
-                    <a class="dock-item2" href="#"><span></span><img src="img/portfolio.png" alt="portfolio"></a> 
-                    <a class="dock-item2" href="#"><span></span><img src="img/music.png" alt="music"></a> 
-                    <a class="dock-item2" href="#"><span></span><img src="img/video.png" alt="video"></a> 
-                    <a class="dock-item2" href="#"><span></span><img src="img/history.png" alt="history"></a> 
-                    <a class="dock-item2" href="#"><span></span><img src="img/calendar.png" alt="calendar"></a> 
-                    <a class="dock-item2" href="#"><span></span><img src="img/link.png" alt="links"></a> 
-                    <a class="dock-item2" href="#"><span></span><img src="img/rss.png" alt="rss"></a> 
-                    <a class="dock-item2" href="#"><span></span><img src="img/rss2.png" alt="rss"></a> 
-                </div>
-            </div>
+        <div class="dock-container2">
+            <a class="dock-item2" href="#"><span></span><img src="img/home.png" alt="home"></a> 
+            <a class="dock-item2" href="#"><span></span><img src="img/email.png" alt="contact"></a> 
+            <a class="dock-item2" href="#"><span></span><img src="img/portfolio.png" alt="portfolio"></a> 
+            <a class="dock-item2" href="#"><span></span><img src="img/music.png" alt="music"></a> 
+            <a class="dock-item2" href="#"><span></span><img src="img/video.png" alt="video"></a> 
+            <a class="dock-item2" href="#"><span></span><img src="img/history.png" alt="history"></a> 
+            <a class="dock-item2" href="#"><span></span><img src="img/calendar.png" alt="calendar"></a> 
+            <a class="dock-item2" href="#"><span></span><img src="img/link.png" alt="links"></a> 
+            <a class="dock-item2" href="#"><span></span><img src="img/rss.png" alt="rss"></a> 
+            <a class="dock-item2" href="#"><span></span><img src="img/rss2.png" alt="rss"></a> 
+        </div>
+    </div>
     
-            <!--dock menu JS options -->
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
-            <script type="text/javascript" src="js/iutil.js"></script>
-            <script type="text/javascript" src="js/fisheye.js"></script>
-            <script type="text/javascript">
-                $(document).ready(
-                function()
+    <!--dock menu JS options -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script type="text/javascript" src="js/iutil.js"></script>
+    <script type="text/javascript" src="js/fisheye.js"></script>
+    <script type="text/javascript">
+        $(document).ready(
+            function()
                 {
-                    $('#dock2').Fisheye(
-                    {
-                        maxWidth: 60,
-                        items: 'a',
-                        itemsText: 'span',
-                        container: '.dock-container2',
-                        itemWidth: 40,
-                        proximity: 80,
-                        alignment : 'left',
-                        valign: 'bottom',
-                        halign : 'center'
+                $('#dock2').Fisheye(
+                {
+                    maxWidth: 60,
+                    items: 'a',
+                    itemsText: 'span',
+                    container: '.dock-container2',
+                    itemWidth: 40,
+                    proximity: 80,
+                    alignment : 'left',
+                    valign: 'bottom',
+                    halign : 'center'
                     }
                 )
                 }
-            );
-            </script>
+        );
+        </script>
 </body>
 </html>
