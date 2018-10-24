@@ -1,0 +1,56 @@
+.desktop-space{
+    width: 100%;
+    height: 86.5vh;
+}
+.window{
+    width: 500px;
+    height: 500px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    background-color: rgb(138, 138, 138);
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.window-top-bar{
+    width: 100%;
+    height: 3vh;
+    background-color: rgb(216, 216, 216);
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.window-close-button{
+    display: inline-block;
+    width: 2.5vh;
+    height: 2.5vh;
+    border-radius: 100%;
+    background-color: #ff0000;
+    margin-left: 2px;
+    margin-top: 1.5px; 
+}
+.window-close-button:hover{
+    background-color: #cc0000;
+}
+.window-minimalize-button{
+    display: inline-block;
+    width: 2.5vh;
+    height: 2.5vh;
+    border-radius: 100%;
+    background-color: #fac536;
+    margin-left: 2px;
+    margin-top: 1.5px; 
+}
+.window-minimalize-button:hover{
+    background-color: #c79203;
+}
+.window-maximalize-button{
+    display: inline-block;
+    width: 2.5vh;
+    height: 2.5vh;
+    border-radius: 100%;
+    background-color: #39ea49;
+    margin-left: 2px;
+    margin-top: 1.5px; 
+}
+.window-maximalize-button:hover{
+    background-color: #04b716;
+}
