@@ -13,27 +13,28 @@
 }
 .window-top-bar{
     width: 100%;
-    height: 3vh;
+    height: 20px;
     background-color: rgb(216, 216, 216);
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
 .window-close-button{
     display: inline-block;
-    width: 2.5vh;
-    height: 2.5vh;
+    width: 18px;
+    height: 18px;
     border-radius: 100%;
     background-color: #ff0000;
     margin-left: 2px;
-    margin-top: 1.5px; 
+    margin-top: 0; 
+    padding: 0;
 }
 .window-close-button:hover{
     background-color: #cc0000;
 }
 .window-minimalize-button{
     display: inline-block;
-    width: 2.5vh;
-    height: 2.5vh;
+    width: 18px;
+    height: 18px;
     border-radius: 100%;
     background-color: #fac536;
     margin-left: 2px;
@@ -44,8 +45,8 @@
 }
 .window-maximalize-button{
     display: inline-block;
-    width: 2.5vh;
-    height: 2.5vh;
+    width: 18px;
+    height: 18px;
     border-radius: 100%;
     background-color: #39ea49;
     margin-left: 2px;
