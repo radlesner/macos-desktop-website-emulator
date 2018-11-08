@@ -28,6 +28,9 @@
 .topbar-left-logo{
     margin-left: 0 !important;
 }
+#topbar-right-button-date, .topbar-right-button-battery, .topbar-right-button-wifi{
+    float: right !important;
+}
 
 @media (max-width: 1600px){
     .topbar{
