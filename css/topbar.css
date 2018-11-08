@@ -1,207 +1,41 @@
 .topbar{
     width: 100%;
     height: 2vh;
-    background: hsl(0, 0%, 100%, 0.5);
-    --hover-topbar-cover: rgba(0, 0, 0, 0.5);
+    background: var(--topbar-background);
+}
+.topbar-left-logo:hover, .topbar-left-button-finder:hover, .topbar-left-button-file:hover, .topbar-left-button-edit:hover,
+.topbar-left-button-view:hover, .topbar-left-button-go:hover, .topbar-left-button-window:hover,
+.topbar-left-button-help:hover, .topbar-right-button-battery:hover, .topbar-right-button-wifi:hover{
+    display: block;
+    background: var(--topbar-cover-hover);
+    color: var(--color-white);
+}
+.topbar-left-logo, .topbar-left-button-finder, .topbar-left-button-file, .topbar-left-button-edit, .topbar-left-button-view,
+.topbar-left-button-go, .topbar-left-button-window, .topbar-left-button-help, #topbar-right-button-date,
+.topbar-right-button-battery, .topbar-right-button-wifi{
+    height: 100%;
+    float: left;
+    font-size: 1.5vh;
+    font-family: 'Work Sans', sans-serif;
+    margin-left: 1.5vh;
+    margin-top: 0;
+    padding-left: 0.5vh;
+    padding-right: 0.5vh;
+    border-bottom-left-radius: 10%;
+    border-bottom-right-radius: 10%;
+    vertical-align: center;
 }
 .topbar-left-logo{
-    height: 100%;
-    float: left;
-    font-size: 1.5vh;
-    font-family: 'Work Sans', sans-serif;
-    margin-top: 0;
-    padding-left: 0.5vh;
-    padding-right: 0.5vh;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    vertical-align: center;
-}
-.topbar-left-logo:hover{
-    display: block;
-    background: var(--hover-topbar-cover);
-    color: #ffffff;
-}
-.topbar-left-button-finder{
-    height: 100%;
-    float: left;
-    font-size: 1.5vh;
-    font-family: 'Work Sans', sans-serif;
-    margin-left: 1.5vh;
-    margin-top: 0;
-    padding-left: 0.5vh;
-    padding-right: 0.5vh;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    vertical-align: center;
-}
-.topbar-left-button-finder:hover{
-    display: block;
-    background: var(--hover-topbar-cover);
-    color: #ffffff;
-}
-.topbar-left-button-file{
-    height: 100%;
-    float: left;
-    font-size: 1.5vh;
-    font-family: 'Work Sans', sans-serif;
-    margin-left: 1.5vh;
-    margin-top: 0;
-    padding-left: 0.5vh;
-    padding-right: 0.5vh;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    vertical-align: center;
-}
-.topbar-left-button-file:hover{
-    display: block;
-    background: var(--hover-topbar-cover);
-    color: #ffffff;
-}
-.topbar-left-button-edit{
-    height: 100%;
-    float: left;
-    font-size: 1.5vh;
-    font-family: 'Work Sans', sans-serif;
-    margin-left: 1.5vh;
-    margin-top: 0;
-    padding-left: 0.5vh;
-    padding-right: 0.5vh;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    vertical-align: center;
-}
-.topbar-left-button-edit:hover{
-    display: block;
-    background: var(--hover-topbar-cover);
-    color: #ffffff;
-}
-.topbar-left-button-view{
-    height: 100%;
-    float: left;
-    font-size: 1.5vh;
-    font-family: 'Work Sans', sans-serif;
-    margin-left: 1.5vh;
-    margin-top: 0;
-    padding-left: 0.5vh;
-    padding-right: 0.5vh;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    vertical-align: center;
-}
-.topbar-left-button-view:hover{
-    display: block;
-    background: var(--hover-topbar-cover);
-    color: #ffffff;
-}
-.topbar-left-button-go{
-    height: 100%;
-    float: left;
-    font-size: 1.5vh;
-    font-family: 'Work Sans', sans-serif;
-    margin-left: 1.5vh;
-    margin-top: 0;
-    padding-left: 0.5vh;
-    padding-right: 0.5vh;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    vertical-align: center;
-}
-.topbar-left-button-go:hover{
-    display: block;
-    background: var(--hover-topbar-cover);
-    color: #ffffff;
-}
-.topbar-left-button-window{
-    height: 100%;
-    float: left;
-    font-size: 1.5vh;
-    font-family: 'Work Sans', sans-serif;
-    margin-left: 1.5vh;
-    margin-top: 0;
-    padding-left: 0.5vh;
-    padding-right: 0.5vh;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    vertical-align: center;
-}
-.topbar-left-button-window:hover{
-    display: block;
-    background: var(--hover-topbar-cover);
-    color: #ffffff;
-}
-.topbar-left-button-help{
-    height: 100%;
-    float: left;
-    font-size: 1.5vh;
-    font-family: 'Work Sans', sans-serif;
-    margin-left: 1.5vh;
-    margin-top: 0;
-    padding-left: 0.5vh;
-    padding-right: 0.5vh;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    vertical-align: center;
-}
-.topbar-left-button-help:hover{
-    display: block;
-    background: var(--hover-topbar-cover);
-    color: #ffffff;
-}
-#topbar-right-button-date{
-    height: 100%;
-    float: right;
-    font-size: 1.5vh;
-    font-family: 'Work Sans', sans-serif;
-    margin-left: 1.5vh;
-    margin-top: 0;
-    padding-left: 0.5vh;
-    padding-right: 0.5vh;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    vertical-align: center;
-}
-.topbar-right-button-battery{
-    height: 100%;
-    float: right;
-    font-size: 1.5vh;
-    font-family: 'Work Sans', sans-serif;
-    margin-top: 0;
-    padding-left: 0.5vh;
-    padding-right: 1vh;
-    border-bottom-left-radius: 10%;
-    border-bottom-right-radius: 10%;
-    vertical-align: center;
-}
-.topbar-right-button-battery:hover{
-    display: block;
-    background: var(--hover-topbar-cover);
-    color: #ffffff;
-}
-.topbar-right-button-wifi{
-    height: 100%;
-    float: right;
-    font-size: 1.5vh;
-    font-family: 'Work Sans', sans-serif;
-    margin-left: 0;
-    margin-top: 0;
-    padding-left: 0.5vh;
-    padding-right: 0.5vh;
-    border-bottom-left-radius: 10%;
-    vertical-align: center;
-}
-.topbar-right-button-wifi:hover{
-    display: block;
-    background: var(--hover-topbar-cover);
-    color: #ffffff;
+    margin-left: 0 !important;
 }
 
 @media (max-width: 1600px){
     .topbar{
         width: 100%;
         height: 3vh;
-        background: hsl(0, 0%, 100%, 0.5);
+        background: var(--topbar-background);
     }
-    .topbar-left-logo{
+.topbar-left-logo{
         height: 100%;
         float: left;
         font-size: 2.5vh;
@@ -213,7 +47,9 @@
         border-bottom-right-radius: 10%;
         vertical-align: center;
     }
-    .topbar-left-button-finder{
+    .topbar-left-button-finder, .topbar-left-button-file, .topbar-left-button-edit, .topbar-left-button-view,
+    .topbar-left-button-go, .topbar-left-button-window, .topbar-left-button-help, #topbar-right-button-date,
+    .topbar-right-button-battery, .topbar-right-button-wifi{
         height: 100%;
         float: left;
         font-size: 2vh;
@@ -226,119 +62,8 @@
         border-bottom-right-radius: 10%;
         vertical-align: center;
     }
-    .topbar-left-button-file{
-        height: 100%;
-        float: left;
-        font-size: 2vh;
-        font-family: 'Work Sans', sans-serif;
-        margin-left: 1.5vh;
-        margin-top: 0;
-        padding-left: 0.5vh;
-        padding-right: 0.5vh;
-        border-bottom-left-radius: 10%;
-        border-bottom-right-radius: 10%;
-        vertical-align: center;
-    }
-    .topbar-left-button-edit{
-        height: 100%;
-        float: left;
-        font-size: 2vh;
-        font-family: 'Work Sans', sans-serif;
-        margin-left: 1.5vh;
-        margin-top: 0;
-        padding-left: 0.5vh;
-        padding-right: 0.5vh;
-        border-bottom-left-radius: 10%;
-        border-bottom-right-radius: 10%;
-        vertical-align: center;
-    }
-    .topbar-left-button-view{
-        height: 100%;
-        float: left;
-        font-size: 2vh;
-        font-family: 'Work Sans', sans-serif;
-        margin-left: 1.5vh;
-        margin-top: 0;
-        padding-left: 0.5vh;
-        padding-right: 0.5vh;
-        border-bottom-left-radius: 10%;
-        border-bottom-right-radius: 10%;
-        vertical-align: center;
-    }
-    .topbar-left-button-go{
-        height: 100%;
-        float: left;
-        font-size: 2vh;
-        font-family: 'Work Sans', sans-serif;
-        margin-left: 1.5vh;
-        margin-top: 0;
-        padding-left: 0.5vh;
-        padding-right: 0.5vh;
-        border-bottom-left-radius: 10%;
-        border-bottom-right-radius: 10%;
-        vertical-align: center;
-    }
-    .topbar-left-button-window{
-        height: 100%;
-        float: left;
-        font-size: 2vh;
-        font-family: 'Work Sans', sans-serif;
-        margin-left: 1.5vh;
-        margin-top: 0;
-        padding-left: 0.5vh;
-        padding-right: 0.5vh;
-        border-bottom-left-radius: 10%;
-        border-bottom-right-radius: 10%;
-        vertical-align: center;
-    }
-    .topbar-left-button-help{
-        height: 100%;
-        float: left;
-        font-size: 2vh;
-        font-family: 'Work Sans', sans-serif;
-        margin-left: 1.5vh;
-        margin-top: 0;
-        padding-left: 0.5vh;
-        padding-right: 0.5vh;
-        border-bottom-left-radius: 10%;
-        border-bottom-right-radius: 10%;
-        vertical-align: center;
-    }
-    #topbar-right-button-date{
-        height: 100%;
-        float: right;
-        font-size: 2vh;
-        font-family: 'Work Sans', sans-serif;
-        margin-left: 1.5vh;
-        margin-top: 0;
-        padding-left: 0.5vh;
-        padding-right: 0.5vh;
-        border-bottom-left-radius: 10%;
-        border-bottom-right-radius: 10%;
-        vertical-align: center;
-    }
-    .topbar-right-button-battery{
-        height: 100%;
-        float: right;
-        font-size: 2vh;
-        font-family: 'Work Sans', sans-serif;
-        margin-top: 0;
-        padding-left: 0.5vh;
-        padding-right: 1vh;
-        border-bottom-left-radius: 10%;
-        border-bottom-right-radius: 10%;
-        vertical-align: center;
-    }
-    .topbar-right-button-wifi{
-        height: 100%;
-        float: right;
-        font-size: 2vh;
-        font-family: 'Work Sans', sans-serif;
-        margin-left: 0;
-        margin-top: 0;
-        padding-left: 0.5vh;
-        padding-right: 0.5vh;
-        border-bottom-left-radius: 10%;
-        vertical-align: center;
+    #topbar-right-button-date, .topbar-right-button-battery, .topbar-right-button-wifi{
+        float: right !important;
     }
 }
+    

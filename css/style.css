@@ -1,9 +1,14 @@
-/*
-*{
-    box-sizing: border-box;
+:root{
+    --color-white: #ffffff;
+    --topbar-cover-hover: rgba(0, 0, 0, 0.8);
+    --topbar-background: hsl(0, 0%, 100%, 0.5);
+    --button-close: #ff0000;
+    --button-close-hover: #cc0000;
+    --button-minimalize: #fac536;
+    --button-minimalize-hover: #c79203;
+    --button-maximalize: #39ea49;
+    --button-maximalize-hover: #04b716;
 }
-*/
-
 body{
     background-image: url(../backgrounds/background.jpg);
     background-size: 100% 100%;
@@ -15,13 +20,4 @@ body{
 #super-container{
     width: 100%;
     height: 100%;
-}
-/*.window{
-    width: 400px;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-size: 6vh;
-    color: #ffffff;
 }

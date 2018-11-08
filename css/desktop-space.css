@@ -18,40 +18,30 @@
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
-.window-close-button{
+.window-close-button, .window-minimalize-button, .window-maximalize-button{
     display: inline-block;
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     border-radius: 100%;
-    background-color: #ff0000;
     margin-left: 2px;
-    margin-top: 0; 
+    margin-top: 2px; 
     padding: 0;
 }
+.window-close-button{
+    background-color: var(--button-close);
+}
 .window-close-button:hover{
-    background-color: #cc0000;
+    background-color: var(--button-close-hover);
 }
 .window-minimalize-button{
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    border-radius: 100%;
-    background-color: #fac536;
-    margin-left: 2px;
-    margin-top: 1.5px; 
+    background-color: var(--button-minimalize);
 }
 .window-minimalize-button:hover{
-    background-color: #c79203;
+    background-color: var(--button-minimalize-hover);
 }
 .window-maximalize-button{
-    display: inline-block;
-    width: 18px;
-    height: 18px;
-    border-radius: 100%;
-    background-color: #39ea49;
-    margin-left: 2px;
-    margin-top: 1.5px; 
+    background-color: var(--button-maximalize);
 }
 .window-maximalize-button:hover{
-    background-color: #04b716;
+    background-color: var(--button-maximalize-hover);
 }
