@@ -45,7 +45,7 @@ jQuery.iUtil = {
         return {
             x: x,
             y: y
-        }; 
+        };
     },
     getPositionLite: function (el) {
         var x = 0,

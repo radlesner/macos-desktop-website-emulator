@@ -1,11 +1,11 @@
 /**
  * Interface Elements for jQuery
  * Fisheye menu
- * 
+ *
  * http://interface.eyecon.ro
- * 
+ *
  * Copyright (c) 2006 Stefan Petre
- * Dual licensed under the MIT (MIT-LICENSE.txt) 
+ * Dual licensed under the MIT (MIT-LICENSE.txt)
  * and GPL (GPL-LICENSE.txt) licenses.
  *
  */
@@ -66,7 +66,7 @@ jQuery.iFisheye = {
                         jQuery(el.fisheyeCfg.itemsText, this).get(0).style.display = 'block';
                     })
                 .bind(
-                    'mouseout', 
+                    'mouseout',
 
                     function () {
                         jQuery(el.fisheyeCfg.itemsText, this).get(0).style.display = 'none';
