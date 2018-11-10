@@ -1,7 +1,7 @@
 /* dock - all */
 .dock {
-	position: relative; 
-	height: 50px; 
+	position: relative;
+	height: 50px;
 	text-align: center;
 }
 .dock img {
@@ -26,12 +26,12 @@ a.dock-item {
 	font: bold 12px Arial, Helvetica, sans-serif;
 }
 .dock-item img {
-	border: none; 
-	margin: 5px 10px 0px; 
-	width: 100%; 
+	border: none;
+	margin: 5px 10px 0px;
+	width: 100%;
 }
 .dock-item span {
-	display: none; 
+	display: none;
 	padding-left: 20px;
 }
 
@@ -51,11 +51,11 @@ a.dock-item {
 	padding-left: 20px;
 }
 a.dock-item2 {
-	display: block; 
+	display: block;
 	font: bold 12px Arial, Helvetica, sans-serif;
-	width: 40px; 
-	color: #000; 
-	bottom: 0px; 
+	width: 40px;
+	color: #000;
+	bottom: 0px;
 	position: absolute;
 	text-align: center;
 	text-decoration: none;
@@ -65,7 +65,7 @@ a.dock-item2 {
 	padding-left: 20px;
 }
 .dock-item2 img {
-	border: none; 
-	margin: 5px 10px 0px; 
-	width: 100%; 
+	border: none;
+	margin: 5px 10px 0px;
+	width: 100%;
 }

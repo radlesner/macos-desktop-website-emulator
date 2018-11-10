@@ -66,7 +66,7 @@ jQuery.iFisheye = {
                         jQuery(el.fisheyeCfg.itemsText, this).get(0).style.display = 'block';
                     })
                 .bind(
-                    'mouseout',
+                    'mouseout', 
 
                     function () {
                         jQuery(el.fisheyeCfg.itemsText, this).get(0).style.display = 'none';
